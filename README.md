@@ -1,4 +1,4 @@
-# PandasDescription :computer:###:pencil2:
+# PandasDescription:pencil2: :computer:
 ## Chipotle
 + import pandas as pd
 ***
