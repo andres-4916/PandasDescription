@@ -19,14 +19,14 @@
 + chipo.index //
 ***
 + c = chipo.groupby('item_name')
-  c = c.sum()
-  c = c.sort_values(['quantity'], ascending=False)
-  c.head(1)
++ c = c.sum()
++ c = c.sort_values(['quantity'], ascending=False)
++ c.head(1)
 
 ***
-+ c = chipo.groupby('choice_description').sum()
-  c = c.sort_values(['quantity'], ascending=False)
-  c.head(1)
+ + c = chipo.groupby('choice_description').sum()
+ + c = c.sort_values(['quantity'], ascending=False)
+ + c.head(1)
 ***
 + total_items_orders = chipo.quantity.sum()
   total_items_orders
