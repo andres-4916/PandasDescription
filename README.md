@@ -17,3 +17,8 @@
 + chipo.columns //column names//
 ***
 + chipo.index //
+
+
+
+
+https://github.com/guipsamora/pandas_exercises
