@@ -57,4 +57,45 @@
 
 + chipo.item_name.value_counts().count() 
 ***
-https://github.com/guipsamora/pandas_exercises
+## Occupation:
+
++ import pandas as pd 
+***
++ users = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT8/master/data/u.user', 
+                      sep='|', index_col='user_id')
+ ***
+ + users.head(25)
+ ***
+ 
+ + users.tail(10
+***
++ users.shape[0]
+***
++ users.shape[1]
+***
++ users.columns
+***
++ users.index
+***
++ users.dtypes
+***
++ users.occupation
+***
++ users.occupation.nunique()
+***
++ users.occupation.value_counts().head(1).index[0]
+***
++ users.describe()
+***
++ 
+users.describe(include = "all")
+***
++ users.occupation.describe()
+***
++ round(users.age.mean())
+***
++ users.age.value_counts().tail()
+***
+
+## World Food Facts
+REFERENCE: https://github.com/guipsamora/pandas_exercises
