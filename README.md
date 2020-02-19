@@ -1,5 +1,5 @@
-# PandasDescription :computer:
-## Chipotle:pencil2:
+# PandasDescription :computer::pencil2:
+## Chipotle
 + import pandas as pd
 ***
 + import numpy as np //necessity as pandas is built on np///
