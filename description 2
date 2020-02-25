@@ -1,3 +1,5 @@
+PandasDescription:pencil2::computer:
+
 + import pandas as pd: what it does is important the necessary libraries
 ***
 + users = pd.read_csv ('https://raw.githubusercontent.com/justmarkham/DAT8/master/data/u.user',
