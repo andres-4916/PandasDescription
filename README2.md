@@ -27,3 +27,22 @@
 + users.occupation.describe () summarizes only the specific column showing the most used data, the type of data, how much data an the frequency used round (users.age.mean ()) shows the average age of the database that users are.
 ***
 + users.age.value_counts (). tail (): shows the age that is least used, the least used of all, as can be shown in the other tables.
+
+# description folder two:pencil2:
+
++ import pandas as pd: we import the necessary libraries.
+***
++ drinks = pd.read_csv ('https://raw.githubusercontent.com/justmarkham/DAT8/master/data/drinks.csv')
+drinks.head (): let's get the address where the database is a name and show the table.
+***
++ drinks.groupby ('country'). beer_servings.mean (): What it does is search as a link, showing country with beer_servings data.
+***
++ drinks.groupby ('continent'). wine_servings.describe (): this function shows in addition to the average it also shows part of the median along with its other filters such as those that are most requested, the total percentage, average percentage, etc. Difference of the mean is that this shows everything besides the mean (mean) making a type link between tables.
+***
++ drinks.groupby ('continent'). mean (): print the average of what you select but of each column in general.
+***
++ drinks.groupby ('continent'). median (): shows the median of the selected column.
+***
+
++ drinks.groupby ('continent'). spirit_servings.agg (['mean', 'min', 'max']): shows the average, minimum and maximum values.
+
